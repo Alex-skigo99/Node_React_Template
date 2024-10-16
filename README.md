@@ -5,13 +5,14 @@
     npm i
     cd client
     npm i
-    ( npm run build )
+    npm run build
 
 ## Features
 
 - Node.js with:
     1. Typescript
     2. Express
+    2a. Jest
     3. folders structure src (ts) -> build (js)
     4. index.ts - entry point
     5. Hello api - /api/hello
@@ -30,6 +31,7 @@
     sudo tsc --init
     sudo npm i express cors dotenv
     sudo npm i --save-dev @types/node @types/express @types/cors
+    sudo npm install --save-dev jest @types/jest ts-jest
     sudo npx create-react-app client --template typescript
 
 ## Run commands
@@ -38,6 +40,7 @@
 
     cd client
     npm start
+    or npm run build
 
 ### Run node (:3001)
 
@@ -53,7 +56,7 @@
 
 ### For mongo.db
 
-    sudo npm i mongodb@6.9
+    sudo npm i mongodb
 
 ### For Vite
 

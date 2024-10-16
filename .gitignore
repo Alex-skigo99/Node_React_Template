@@ -132,3 +132,6 @@ dist
 # react build
 client/build
 client/dist
+
+# node js build
+/build

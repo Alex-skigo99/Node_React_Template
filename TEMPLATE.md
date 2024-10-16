@@ -5,7 +5,7 @@
     npm i
     cd client
     npm i
-    ( npm run build )
+    npm run build
 
 ## Features
 
@@ -38,6 +38,7 @@
 
     cd client
     npm start
+    or npm run build
 
 ### Run node (:3001)
 
@@ -53,7 +54,7 @@
 
 ### For mongo.db
 
-    sudo npm i mongodb@6.9
+    sudo npm i mongodb
 
 ### For Vite
 
