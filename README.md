@@ -12,7 +12,7 @@
 - Node.js with:
     1. Typescript
     2. Express
-    2a. Jest
+    2a. Jest, jest.config.ts
     3. folders structure src (ts) -> build (js)
     4. index.ts - entry point
     5. Hello api - /api/hello
@@ -31,7 +31,7 @@
     sudo tsc --init
     sudo npm i express cors dotenv
     sudo npm i --save-dev @types/node @types/express @types/cors
-    sudo npm install --save-dev jest @types/jest ts-jest
+    sudo npm i --save-dev jest @types/jest ts-jest ts-node supertest @types/supertest
     sudo npx create-react-app client --template typescript
 
 ## Run commands
@@ -56,7 +56,7 @@
 
 ### For mongo.db
 
-    sudo npm i mongodb
+    sudo npm i mongodb mongodb-memory-server
 
 ### For Vite
 
@@ -74,3 +74,12 @@
 ### Permision
 
     sudo chown -R sasha Dev
+
+### For swagger
+
+    npm install swagger-jsdoc swagger-ui-express
+    npm install @types/swagger-ui-express --save-dev
+
+### For material UI
+
+    sudo npm install @mui/material @emotion/react @emotion/styled
